@@ -49,6 +49,7 @@ public class Sample implements PluginInterface {
  
  @Override  
  /* used to set the application */
- public void setApplication(InputProviderInterface app) {}
+ public void setApplication(InputProviderInterface app) { }
+ 
  }
  ```
