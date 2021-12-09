@@ -12,13 +12,14 @@
 ```java 
 /* PluginInterface */
 
-public interface PluginInterface {   
- ArrayList<Button> getButtonArray();  
- String getApplicationTitle();  
- String getInititalText(); 
- void setButtonAction(Button button);  
- void setButtonText(Button button);  
- void setApplication(InputProviderInterface app);  
+public interface PluginInterface 
+{   
+   ArrayList<Button> getButtonArray();  
+   String getApplicationTitle();  
+   String getInititalText(); 
+   void setButtonAction(Button button);  
+   void setButtonText(Button button);  
+   void setApplication(InputProviderInterface app);  
 }
 ```
 
