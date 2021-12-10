@@ -1,4 +1,4 @@
-## Create a new PluginInterface
+## Create a new Plugin
 
 #### Overview
 
