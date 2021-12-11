@@ -40,9 +40,9 @@ public class PluginHandler implements InputProviderInterface {
                 HBox.setMargin(button, new Insets(0, 5, 0, 10));
                 HBox.setMargin(inputField, new Insets(0, 0, 0, 20));
                 HBox.setHgrow(inputField, Priority.ALWAYS);
-                plugin.setButtonText(button);
                 hbox.setAlignment(Pos.CENTER);
                 hbox.getChildren().add(button);
+                plugin.setButtonText(button);
             }
             plugin.setButtonAction(new Button());
 
