@@ -30,14 +30,27 @@ public class Sample implements PluginInterface {
 
  @Override
  /* used if you want to use multiple buttons on your scene */
+ /* Sample use for multiple buttons: 
+    Button button1 = new Button();
+    Button button2 = new Button();
+    private ArrayList<Button> buttons = new ArrayList<>(Arrays.asList(button1, button2));
+ */
  public ArrayList<Button> getButtonArray() { return null; }  
  
  @Override  
  /* used to give one or more buttons a action when clicked */
+ /* Sample use for multiple buttons:       
+    getButtonArray().get(0).setOnAction(actionEvent -> { System.out.println("I'm button 1"); });
+    getButtonArray().get(1).setOnAction(actionEvent -> { System.out.println("I'm button 2"); });
+ */
  public void setButtonAction(Button button) { }  
  
  @Override  
  /* used to asign each button an individual text */
+ /* Sample use for multiple buttons:
+    getButtonArray().get(0).setText("button1");
+    getButtonArray().get(1).setText("button2");
+ */
  public void setButtonText(Button button) { }  
  
  @Override  
@@ -54,3 +67,6 @@ public class Sample implements PluginInterface {
  
  }
  ```
+#### Build
+* Just open the SEHA8 as a project folder in IntelliJ and run /SEHA8/src/main/java/com.se.max.seha8/mainApp
+* Every plugin provided is fully functional
